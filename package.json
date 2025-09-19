@@ -1,0 +1,32 @@
+{
+  "name": "backend-tmdb-fullstack",
+  "version": "1.0.0",
+  "description": "Es un sitio conectado a la api de TMDB para consumo en un rest con login, usuarios, reseñas",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidaltamiram/Backend-TMDB-Fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidaltamiram/Backend-TMDB-Fullstack/issues"
+  },
+  "homepage": "https://github.com/davidaltamiram/Backend-TMDB-Fullstack#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.5",
+    "nodemon": "^3.1.10"
+  }
+}
