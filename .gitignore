@@ -1,0 +1,41 @@
+# Dependencias (pnpm y node_modules)
+node_modules/
+.pnpm/
+
+# Lock file (opcional: algunos lo suben, otros no)
+pnpm-lock.yaml
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Directorios de build / producción
+dist/
+build/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cobertura de pruebas
+coverage/
+
+# Carpeta de archivos temporales o uploads
+uploads/
+tmp/
+
+# Cachés de pnpm
+.pnpm-store/
